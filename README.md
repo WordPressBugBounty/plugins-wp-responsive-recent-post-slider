@@ -1,0 +1,1 @@
+# plugins-wp-responsive-recent-post-slider
