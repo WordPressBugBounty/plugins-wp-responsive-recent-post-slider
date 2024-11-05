@@ -13,6 +13,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 
 <div id="wppsac_unlock_tabs" class="wppsac-vtab-cnt wppsac_unlock_tabs wppsac-clearfix">
+	
+	<div class="wppsac-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPRPS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<h2 style="font-size: 24px; text-align: center; color: #6c63ff;">Bundle Deal Details</h2>
 	<table class="wpos-plugin-list">
 		<thead>
@@ -85,11 +90,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</thead>
 	</table>
 
-	<div class="wppsac-favourite-section">
+	<!-- <div class="wppsac-favourite-section">
 		<h3 class="wppsac-blue wppsac-favourite-heading">Use Essential Plugin Bundle</h3>
 		<h1 class="wppsac-favourite-sub-heading">With Your Favourite Page Builders</h1>
-		<span><i class="dashicons dashicons-yes"></i> = <img src="<?php echo esc_url( WPRPS_URL ); ?>assets/images/essential-logo-small.png" width="15" height="15" /> Essential Plugin Bundle contain many more layouts and designs</span>
-	</div>
+		<span><i class="dashicons dashicons-yes"></i> = <img src="<?php// echo esc_url( WPRPS_URL ); ?>assets/images/essential-logo-small.png" width="15" height="15" /> Essential Plugin Bundle contain many more layouts and designs</span>
+	</div> -->
 
 	<!-- <div class="wppsac-deal-offer-wrap">
 		<div class="wppsac-deal-offer"> 
@@ -105,15 +110,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wppsac-deal-offer-wrap">
+	<!-- <div class="wppsac-deal-offer-wrap">
 		<div class="wppsac-deal-offer"> 
 			<div class="wppsac-inn-deal-offer">
 				<h3 class="wppsac-inn-deal-hedding"><span>Try WP Responsive Recent Post Slider Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wppsac-deal-free-offer">
-				<a href="<?php echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wppsac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wppsac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 </div>

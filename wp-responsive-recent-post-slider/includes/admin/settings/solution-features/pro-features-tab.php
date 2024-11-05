@@ -13,6 +13,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 
 <div id="wppsac_themes_tabs" class="wppsac-vtab-cnt wppsac_themes_tabs wppsac-clearfix">
+	
+	<div class="wppsac-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPRPS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<!-- Start - WP Responsive Recent Post Slider/Carousel - Features -->
 	<div class="wppsac-features-section">
 		<div class="wppsac-center wppsac-features-ttl">
@@ -50,15 +55,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wppsac-deal-offer-wrap">
+	<!-- <div class="wppsac-deal-offer-wrap">
 		<div class="wppsac-deal-offer"> 
 			<div class="wppsac-inn-deal-offer">
 				<h3 class="wppsac-inn-deal-hedding"><span>Try WP Responsive Recent Post Slider Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wppsac-deal-free-offer">
-				<a href="<?php echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wppsac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wppsac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 </div>

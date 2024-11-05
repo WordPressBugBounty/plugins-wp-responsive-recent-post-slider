@@ -6,7 +6,7 @@
  * Domain Path: /languages/
  * Description: Add and display Responsive WordPresss Recent Post Slider and Carousel on your website with 4 designs (Slider) and 1 designs (Carousel) using a shortcode. Also added Gutenberg block support. 
  * Author: WP OnlineSupport, Essential Plugin
- * Version: 3.6.1
+ * Version: 3.6.2
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-responsive-recent-post-slider/
  *
  * @package WP Responsive Recent Post Slider
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 
 if( ! defined( 'WPRPS_VERSION' ) ) {
-	define( 'WPRPS_VERSION', '3.6.1' ); // Version of plugin
+	define( 'WPRPS_VERSION', '3.6.2' ); // Version of plugin
 }
 
 if( ! defined( 'WPRPS_DIR' ) ) {
@@ -56,11 +56,11 @@ if( ! defined( 'WPRPS_SITE_LINK' ) ) {
 }
 
 if( ! defined( 'WPRPS_PLUGIN_BUNDLE_LINK' ) ) {
-	define('WPRPS_PLUGIN_BUNDLE_LINK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=RecentPostSlider&utm_campaign=Welcome-Screen'); // Plugin link
+	define('WPRPS_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=RecentPostSlider&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
 if( ! defined( 'WPRPS_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WPRPS_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=RecentPostSlider&utm_campaign=Features-PRO'); // Plugin link
+	define('WPRPS_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=RecentPostSlider&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**

@@ -37,7 +37,7 @@ class Wprps_Admin {
 		add_submenu_page( 'wprps-about', __( 'Overview - Responsive Recent Post Slider', 'wp-responsive-recent-post-slider' ), '<span style="color:#2ECC71">'. __( 'Overview', 'wp-responsive-recent-post-slider' ).'</span>', 'manage_options', 'wprps-solutions-features', array( $this, 'wprps_solutions_features_page' ) );
 
 		// Premium page load
-		add_submenu_page( 'wprps-about', __( 'Upgrade To PRO - Responsive Recent Post Slider', 'wp-responsive-recent-post-slider' ), '<span style="color:#ff2700">' . __( 'Upgrade To Premium ', 'wp-responsive-recent-post-slider' ) . '</span>', 'manage_options', 'wprps-premium', array( $this, 'wprps_premium_page' ) );
+		add_submenu_page( 'wprps-about', __( 'Upgrade To PRO - Responsive Recent Post Slider', 'wp-responsive-recent-post-slider' ), '<span style="color:#ff2700">' . __( 'Upgrade To PRO – Early Back Friday Deals', 'wp-responsive-recent-post-slider' ) . '</span>', 'manage_options', 'wprps-premium', array( $this, 'wprps_premium_page' ) );
 	}
 
 	/**

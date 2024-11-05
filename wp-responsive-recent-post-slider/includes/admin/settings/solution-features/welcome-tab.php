@@ -13,8 +13,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 
 <div id="wppsac_welcome_tabs" class="wppsac-vtab-cnt wppsac_welcome_tabs wppsac-clearfix">
+
+	<div class="wppsac-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPRPS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
 	
-	<div class="wppsac-deal-offer-wrap">
+	<!-- <div class="wppsac-deal-offer-wrap">
 		<h3 style="font-weight: bold; font-size: 30px; color:#ffef00; text-align:center; margin: 15px 0 5px 0;">Why Invest Time On Free Version?</h3>
 
 		<h3 style="font-size: 18px; text-align:center; margin:0; color:#fff;">Explore WP Blog and Widgets Pro with Essential Bundle Free for 5 Days.</h3>			
@@ -22,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="wppsac-deal-free-offer">
 			<a href="<?php echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wppsac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Start - Welcome Box -->
 	<div class="wppsac-sf-welcome-wrap" style="padding: 30px;border-radius: 10px;border: 1px solid #e5ecf6;">

@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 } ?>
 <div id="wppsac_basic_tabs" class="wppsac-vtab-cnt wppsac_basic_tabs wppsac-clearfix">
-	<h3 style="text-align:center">Compare <span class="wppsac-blue">"WP Responsive Recent Post Slider/Carousel"</span> Free VS Pro</h3>
+	
 
 	<!-- <div class="wppsac-deal-offer-wrap">
 		<div class="wppsac-deal-offer"> 
@@ -28,16 +28,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wppsac-deal-offer-wrap">
+	<!-- <div class="wppsac-deal-offer-wrap">
 		<div class="wppsac-deal-offer"> 
 			<div class="wppsac-inn-deal-offer">
 				<h3 class="wppsac-inn-deal-hedding"><span>Try WP Responsive Recent Post Slider Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wppsac-deal-free-offer">
-				<a href="<?php echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wppsac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wppsac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wppsac-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPRPS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
+
+	<h3 style="text-align:center">Compare <span class="wppsac-blue">"WP Responsive Recent Post Slider/Carousel"</span> Free VS Pro</h3>
 
 	<table class="wpos-plugin-pricing-table">
 		<colgroup></colgroup>
@@ -207,14 +213,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wppsac-deal-offer-wrap">
+	<!-- <div class="wppsac-deal-offer-wrap">
 		<div class="wppsac-deal-offer"> 
 			<div class="wppsac-inn-deal-offer">
 				<h3 class="wppsac-inn-deal-hedding"><span>Try WP Responsive Recent Post Slider Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wppsac-deal-free-offer">
-				<a href="<?php echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wppsac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wppsac-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wppsac-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPRPS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPRPS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 </div>
