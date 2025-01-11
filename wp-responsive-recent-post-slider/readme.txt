@@ -2,8 +2,8 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, patelketan, piyushpatel123
 Tags: post slider, recent post slider, responsive post slider, responsive recent post slider, WordPress posts slider
 Requires at least: 4.0
-Tested up to: 6.6.2
-Stable tag: 3.6.2
+Tested up to: 6.7.1
+Stable tag: 3.6.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -184,6 +184,9 @@ Where designs are : design-1, design-2, design-3, design-4. You can use same par
 8. Gutenberg Block Support
 
 == Changelog ==  
+
+= 3.6.3 (11, January 2024) =
+* [*] Check compatibility with WordPress version 6.7.1.
 
 = 3.6.2 (05 Nov 2024) =
 * [*] Check compatibility with WordPress version 6.6.2
