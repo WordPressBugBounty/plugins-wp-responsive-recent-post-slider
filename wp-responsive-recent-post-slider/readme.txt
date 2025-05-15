@@ -1,13 +1,13 @@
 ﻿=== WP Responsive Recent Post Slider/Carousel ===
-Contributors: wponlinesupport, anoopranawat, pratik-jain, patelketan, piyushpatel123
+Contributors: essentialplugin
 Tags: post slider, recent post slider, responsive post slider, responsive recent post slider, WordPress posts slider
 Requires at least: 4.0
-Tested up to: 6.7.1
-Stable tag: 3.6.4
+Tested up to: 6.8.1
+Stable tag: 3.6.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add and display Responsive WordPress Recent Post Slider and Carousel on your website with 4 designs (Slider) and 1 designs (Carousel) using a shortcode. Also added Gutenberg block support.
+Display Responsive Recent Post Slider and Carousel on your site with 4 designs (Slider) and 1 designs (Carousel) using shortcode and Gutenberg block.
 
 == Description ==
 
@@ -185,11 +185,14 @@ Where designs are : design-1, design-2, design-3, design-4. You can use same par
 
 == Changelog ==  
 
+= 3.6.5 (15, May 2025) =
+* [*] Check compatibility with WordPress version 6.8.1
+
 = 3.6.4 (11, January 2024) =
-* [*] Check compatibility with WordPress version 6.7.1.
+* [*] Check compatibility with WordPress version 6.7.1
 
 = 3.6.3 (11, January 2024) =
-* [*] Check compatibility with WordPress version 6.7.1.
+* [*] Check compatibility with WordPress version 6.7.1
 
 = 3.6.2 (05 Nov 2024) =
 * [*] Check compatibility with WordPress version 6.6.2

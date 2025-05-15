@@ -5,12 +5,12 @@
  * Text Domain: wp-responsive-recent-post-slider
  * Domain Path: /languages/
  * Description: Add and display Responsive WordPresss Recent Post Slider and Carousel on your website with 4 designs (Slider) and 1 designs (Carousel) using a shortcode. Also added Gutenberg block support. 
- * Author: WP OnlineSupport, Essential Plugin
- * Version: 3.6.4
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-responsive-recent-post-slider/
+ * Author: Essential Plugin
+ * Version: 3.6.5
+ * Author URI: https://www.essentialplugin.com
  *
  * @package WP Responsive Recent Post Slider
- * @author WP OnlineSupport
+ * @author Essential Plugin
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 
 if( ! defined( 'WPRPS_VERSION' ) ) {
-	define( 'WPRPS_VERSION', '3.6.4' ); // Version of plugin
+	define( 'WPRPS_VERSION', '3.6.5' ); // Version of plugin
 }
 
 if( ! defined( 'WPRPS_DIR' ) ) {
@@ -38,14 +38,6 @@ if( ! defined( 'WPRPS_URL' ) ) {
 if( ! defined( 'WPRPS_POST_TYPE' ) ) {
 	define( 'WPRPS_POST_TYPE', 'post' ); // Plugin post type
 }
-
-// if( ! defined( 'WPRPS_PLUGIN_BUNDLE_LINK' ) ) {
-// 	define('WPRPS_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=RecentPostSlider&utm_campaign=Welcome-Screen'); // Plugin link
-// }
-
-// if( ! defined( 'WPRPS_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define('WPRPS_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=RecentPostSlider&utm_campaign=Features-PRO'); // Plugin link
-// }
 
 if( ! defined( 'WPRPS_PLUGIN_LINK_UPGRADE' ) ) {
 	define('WPRPS_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=RecentPostSlider&utm_campaign=Upgrade-PRO'); // Plugin Check link
